@@ -43,16 +43,4 @@ You can also view and interact with the project online via OneDrive: [View Bank 
 - **Microsoft Excel**: For opening and interacting with the Excel workbook.
 - **Microsoft PowerPoint**: For viewing the insights presentation.
 
-## Contributing
 
-Contributions to improve the project are welcome. Please ensure any pull requests are consistent with the existing data structure and analytical framework.
-
-## License
-
-This project is distributed under the MIT License. See the [LICENSE.md](LICENSE) file for more details.
-
-## Contact
-
-For any questions or to get involved, please open an issue in this repository or contact the project maintainers directly.
-
----
