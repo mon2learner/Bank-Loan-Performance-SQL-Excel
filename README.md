@@ -1,39 +1,48 @@
-# Bank Loan Project
+# Bank Loan Analysis Project
+---
 
 ## Overview
 
-Welcome to the Bank Loan Project repository! This Excel-based project aims to analyze and report on various aspects of bank loans. It provides insights into loan performance, borrower demographics, and trends that influence lending strategies. This project is crucial for data-driven decision-making and helps in identifying key performance indicators that define 'Good Loans' versus 'Bad Loans'.
+The Bank Loan Analysis Project is a comprehensive repository designed to enhance our bank's understanding and management of loan performance. This project leverages SQL for data extraction and cleaning from a MySQL database, followed by detailed data analysis in Microsoft Excel, and visual insights presented through PowerPoint. The goal is to provide actionable insights into the bank's lending operations, enabling informed decision-making and strategic planning.
 
-## Features
+## Project Components
 
-- **Loan Dashboards**: Interactive Excel dashboards that display key loan metrics such as total loan applications, funded amounts, and breakdown by loan status.
-- **Loan Performance Analysis**: An in-depth look at loan data to assess risk and borrower demographics.
-- **Trend Reports**: Excel reports that track the performance of loans over time, providing valuable insights for decision-making.
-
-## Project Structure
-
-- `data/` - Contains the raw and processed Excel datasets used in the analyses.
-- `docs/` - Documentation files including the problem statement, domain knowledge, and data terminologies specific to the project.
-- `dashboards/` - Excel files with interactive dashboards showcasing various loan-related metrics.
-- `reports/` - Excel files containing detailed reports and visualizations.
+- **SQL Queries** (`BankLoanProjectQueries.sql`): Contains all SQL scripts used for initial data extraction and preliminary analysis. These queries are essential for generating the data needed for further analysis.
+- **Financial Data** (`financial_loan.csv`): The raw CSV data file that serves as the input for SQL queries and subsequent Excel analysis.
+- **Excel Analysis** (`bank_loan_project.xlsx`): Interactive Excel workbook with detailed dashboards and reports illustrating the performance of the bank's loan portfolio.
+- **PowerPoint Insights** (`Bank Loan Performance Insights.pptx`): A presentation that summarizes key insights and strategic recommendations derived from the data analysis.
+- **Documentation**:
+  - **Problem Statement** (`ProblemStatement.docx`): Outlines the objectives and key questions the project aims to answer.
+  - **Insights Document** (`Insights.docx`): Detailed document providing in-depth analysis and insights from the data analyzed.
+  - **SQL Queries Documentation** (`Queries.docx`): Describes the SQL queries used in the project, explaining how data is extracted and processed.
 
 ## Key Performance Indicators (KPIs)
 
 1. **Loan Application Metrics**:
-   - Total applications, categorized into Good and Bad Loans
+   - Total, Good, and Bad Loan Applications
    - Funded and Received Amounts
 2. **Loan Status Insights**:
    - Distribution by Loan Status (Fully Paid, Current, Charged Off)
-3. **Visualizations**:
-   - Trend lines and charts within Excel visualizing various metrics over time.
+3. **Monthly and Yearly Trends**:
+   - Seasonal variations and long-term trends in lending activities.
 
 ## Getting Started
 
-To use this project, simply clone the repository and open the Excel files within the `dashboards/` and `reports/` folders. Ensure you have a recent version of Microsoft Excel installed to take full advantage of the features like pivot tables and slicers.
+To set up this project:
+1. Clone the repository to your local machine.
+2. Run the SQL scripts in `BankLoanProjectQueries.sql` against your MySQL database to prepare the data.
+3. Open the `bank_loan_project.xlsx` file in Microsoft Excel to view and interact with the dashboards.
+4. Review the `Bank Loan Performance Insights.pptx` for a summary of insights and strategies.
+
+## Installation Requirements
+
+- **MySQL**: For running SQL scripts.
+- **Microsoft Excel**: For opening and interacting with the Excel workbook.
+- **Microsoft PowerPoint**: For viewing the insights presentation.
 
 ## Contributing
 
-Contributions to improve the project are always welcome! Whether it is through expanding the existing analyses, refining the dashboards, or enhancing the dataset, your input is valuable. Please feel free to fork the repository and submit your contributions via pull requests.
+Contributions to improve the project are welcome. Please ensure any pull requests are consistent with the existing data structure and analytical framework.
 
 ## License
 
@@ -41,7 +50,6 @@ This project is distributed under the MIT License. See the [LICENSE.md](LICENSE)
 
 ## Contact
 
-Should you have any questions or wish to contribute to the project, please feel free to open an issue in this repository or contact the project maintainers directly.
+For any questions or to get involved, please open an issue in this repository or contact the project maintainers directly.
 
 ---
-
