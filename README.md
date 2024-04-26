@@ -34,6 +34,9 @@ To set up this project:
 3. Open the `bank_loan_project.xlsx` file in Microsoft Excel to view and interact with the dashboards.
 4. Review the `Bank Loan Performance Insights.pptx` for a summary of insights and strategies.
 
+## View the Project Online
+You can also view and interact with the project online via OneDrive: [View Bank Loan Analysis Project](https://onedrive.live.com/edit.aspx?resid=F931DAA1AFCC96AA!334909&cid=f931daa1afcc96aa&CT=1714034173588&OR=ItemsView)
+
 ## Installation Requirements
 
 - **MySQL**: For running SQL scripts.
